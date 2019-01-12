@@ -10,9 +10,7 @@ Gets a snapshot of modules in the Software Engineering Environment.
 import pkg_resources
 import datetime 
 
-#setup filename
 now = datetime.datetime.now()
-#filename = now.year() + now.month() + now.(day)
 filename = "SEEpip"+ now.strftime("%Y-%m-%d")+".txt"
 
 print (filename)
