@@ -27,13 +27,3 @@ with open(filename,"w+") as f:
         print(item)
 
 f.close()
-
-
-
-#print (local_pip_list)
-
-
-#local_packages = pip.get_installed_distributions()
-#local_packages_list = sorted(["%s==%s" % (ii.key, ii.version)
-#     for ii in local_packages])
-#print(local_packages_list)
